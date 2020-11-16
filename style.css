@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffdfc9;
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.indexHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #48e832;
+  padding: 5vh;
+  font-size: 1vw;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+header .Joelisbest {
+  padding: 10vh;
+  margin: 10vh;
+}
+
+.textIntro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-frame {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  margin-right: 0;
+  outline: 1px solid black;
+}
+
+.image-frame img {
+  margin: 5vw;
+  max-width: 50%;
+  height: auto;
+}
+
+#kontaktHeader {
+  display: flex;
+  align-items: flex-start;
+}
+
+.kontakt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center {
+  margin: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.margin {
+  padding: 5vh;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icons:hover {
+  background-color: red;
+}
+
+.icons img {
+  width: 25%;
+  height: auto;
+}
+
+#omHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #48e832;
+  padding: 5vh;
+  font-size: 1vw;
+}
