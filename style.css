@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -27,31 +28,51 @@ header {
   padding: 0;
 }
 
-header .Joelisbest {
-  padding: 10vh;
-  margin: 10vh;
-}
-
 .textIntro {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.knapp {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  width: 30%;
+  outline: 1px solid black;
 }
 
 .image-frame {
   display: flex;
-  flex-direction: column;
-  padding-right: 0;
-  margin-right: 0;
-  outline: 1px solid black;
+  flex-direction: row;
+  width: 75%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin: 5vh;
 }
 
 .image-frame img {
-  margin: 5vw;
+  margin: 5vh;
   max-width: 50%;
   height: auto;
 }
 
+.image {
+  width: 5vw;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.footerone {
+  text-align: center;
+}
 #kontaktHeader {
   display: flex;
   align-items: flex-start;
@@ -63,7 +84,7 @@ header .Joelisbest {
   align-items: center;
 }
 .center {
-  margin: 10vw;
+  margin: 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,4 +119,21 @@ header .Joelisbest {
   background-color: #48e832;
   padding: 5vh;
   font-size: 1vw;
+}
+
+.griddisplay {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.items {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.items img {
+  width: 15vw;
+  height: auto;
 }
