@@ -40,7 +40,6 @@ header {
   align-items: center;
   margin-top: 10%;
   width: 30%;
-  outline: 1px solid black;
 }
 
 .image-frame {
@@ -67,7 +66,20 @@ header {
 .banner {
   display: flex;
   justify-content: center;
-  margin: 5vh;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 22vw;
+  margin-top: 2vw;
+  padding: 3vw;
+  border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 1.5vw;
+}
+
+.test {
+  font-size: 2vw;
 }
 
 .footerone {
@@ -112,6 +124,14 @@ header {
   height: auto;
 }
 
+#medlemheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+  background-color: #01a825;
+  font-size: 1vw;
+}
+
 #omHeader {
   display: flex;
   align-items: center;
@@ -119,6 +139,50 @@ header {
   background-color: #48e832;
   padding: 5vh;
   font-size: 1vw;
+}
+
+.medlempage {
+  display: flex;
+  justify-content: center;
+}
+
+.margin {
+  padding: 5vh;
+  text-align: center;
+  width: 50%;
+}
+
+.margin2 {
+  padding: 5vh;
+  text-align: center;
+  width: 130%;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2vw;
+}
+
+.right img {
+  max-width: 10vw;
+  height: auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2vw;
+}
+
+.left img {
+  max-width: 10vw;
+  height: auto;
 }
 
 .griddisplay {
@@ -188,4 +252,42 @@ header {
   margin-top: 2vw;
   position: sticky;
   bottom: 0;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vw;
+}
+
+.knapp2 {
+  display: flex;
+  justify-content: center;
+}
+
+.knapp3 {
+  padding: 2vw;
+  border: 1px solid black;
+  margin-top: 3vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  background-color: #01a825;
+  color: white;
+}
+
+.knapp4 {
+  padding: 2vw;
+  border: 1px solid black;
+  margin-top: 3vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  color: #01a825;
+}
+
+.subfooter {
+  display: flex;
+  justify-content: center;
+  margin: 2vw;
 }
