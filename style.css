@@ -219,6 +219,10 @@ header {
   grid-row: 2;
 }
 
+.premiumm {
+  color: #ffdfc9;
+}
+
 .items6 {
   grid-column: 4;
   grid-row: 2;
@@ -237,6 +241,21 @@ header {
 .items9 {
   grid-column: 4;
   grid-row: 3;
+}
+
+.items5:hover {
+  background-color: #01a825;
+}
+
+.items:hover,
+.items2:hover,
+.items3:hover,
+.items4:hover,
+.items6:hover,
+.items7:hover,
+.items8:hover,
+.items9:hover {
+  background-color: #48e832;
 }
 
 .griddisplay img {
@@ -290,4 +309,9 @@ header {
   display: flex;
   justify-content: center;
   margin: 2vw;
+}
+
+.spacebetween {
+  display: flex;
+  justify-content: space-between;
 }
