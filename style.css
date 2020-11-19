@@ -20,7 +20,6 @@ body {
   justify-content: space-between;
   background-color: #48e832;
   padding: 5vh;
-  font-size: 1vw;
 }
 
 header {
@@ -37,6 +36,7 @@ header {
 
 .knapp {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 10%;
   width: 30%;
@@ -116,7 +116,7 @@ header {
 }
 
 .icons:hover {
-  background-color: red;
+  background-color: black;
 }
 
 .icons img {
@@ -160,6 +160,7 @@ header {
 
 .right {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -314,4 +315,74 @@ header {
 .spacebetween {
   display: flex;
   justify-content: space-between;
+}
+
+.icons .tooltiptext {
+  visibility: hidden;
+  width: 20vw;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.icons:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media screen and (min-width: 426px) {
+  .infotext {
+    font-size: 18px;
+  }
+  .headerBig {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .subfooter {
+    font-size: 16px;
+  }
+  .tooltiptext {
+    font-size: 14px;
+  }
+  .knapp5 {
+    font-size: 14px;
+  }
+  .announcment {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .infotext {
+    font-size: 10px;
+  }
+  .headerBig {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  .subfooter {
+    font-size: 9px;
+  }
+  .tooltiptext {
+    font-size: 10px;
+  }
+  .knapp5 {
+    font-size: 10px;
+  }
+  .announcment {
+    font-size: 8px;
+  }
 }
